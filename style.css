@@ -1,0 +1,279 @@
+
+:root{
+    --snigle-font:"sniglet", cursive;
+    --rubik:"rubik", cursive;
+    --patua:"patua", cursive;
+    --lobster:"lobster" , cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(
+        to bottom, #dd2476, #ff5124
+    );
+    --light-gray: rgba(255,255,255,0.8);
+}
+
+
+
+/* fonts */
+
+
+@font-face{
+    font-family: "roboto1";
+    src: url(fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: "lobster";
+    src: url(fonts/Lobster/Lobster-Regular.ttf);
+}
+@font-face{
+    font-family: "roboto2";
+    src: url(fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face{
+    font-family: "roboto3";
+    src: url(fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: "roboto4";
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: "dancing";
+    src: url(fonts/dancing-script/DancingScript-VariableFont_wght.ttf);
+}
+
+/* fonts */
+
+
+
+
+/* banner */
+
+
+
+
+/* nav bar  */
+
+
+header a{
+    font-family: var(--snigle-font);
+    font-size: 0.9em;
+    color: rgb(0, 0, 0);
+
+}
+/* header{
+    
+    background: var(--bggradient);
+    height: 40px;
+} */
+.dropdown-content{
+    display: none;
+    background: white;
+    position: absolute;
+    width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0,0, 0, 0.6);
+    z-index: 1;
+    opacity: 0.9;
+
+    
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 12px;
+    display: block;
+    text-decoration: none;
+}
+.dropdown-content a:hover{
+    background: whitesmoke;
+    color: #ff5124;
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.nav-item{
+    padding: 16px;
+}
+.nav-item:last-child{
+    padding-right: 120px;
+}
+.navbar-brand{
+    padding-left: 70px;
+}
+.nav-link:hover{
+    color: black;
+}
+header .right-menu-button{
+    border: 1px solid white !important;
+    color: white !important;
+}
+header .right-menu-button:hover{
+    color: black !important;
+    background-color: white;
+    
+}
+
+/* nav bar close */
+.banner{
+    
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-position: 10% 0%;
+  
+ 
+  
+
+}
+
+.banner .starting-text{
+    padding-top: 10%;
+    font-size: 30px;
+}
+
+.banner .starting-text::after{
+    content: "";
+    height: 2px;
+    width: 200px;
+    display: inline-block;
+    background-color: black;
+    margin-left: 3%;
+}
+/* .banner .img-fluid{
+    padding-top: ;
+} */
+.banner .intro{
+    padding-left: 30px;
+}
+.banner .position{
+   font-family: dancing;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.banner .btn{
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 992px) {
+    body {
+      background-color: lightgreen;
+    }
+  } */
